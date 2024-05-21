@@ -2,8 +2,6 @@ name: Infraestructure Deployment
 on:
   push:
     branches: [ "main" ]
-    paths:
-      - 'infraestructure/**'
 
 
 jobs:
