@@ -20,7 +20,7 @@ jobs:
       run: terraform version
       
     - name: Terraform init
-      run: terraform init -backend-config
+      run: terraform init
       working-directory: infraestructure
 
     - name: Terraform validate
